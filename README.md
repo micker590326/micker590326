@@ -142,6 +142,8 @@
 **工具**：Excel（SUMIF、樞紐分析、條件格式）  
 **可交付成果**：`carbon_record_template.xlsx`（含數據驗證規則）+ `carbon_summary.xlsx`（月別彙整）
 
+📁 **成果檔案**：[碳排放記錄表（含異常值標記、月別樞紐）](https://github.com/micker590326/QA-Internship-Portfolio/blob/main/carbon_record_template.xlsx)
+
 ---
 
 ## 關於我
