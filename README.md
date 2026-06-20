@@ -50,7 +50,7 @@
 **工具**：SPSS、Excel（樞紐分析整理 202 筆）、Google Forms  
 **可交付成果**：原始問卷 CSV 資料 + 信度摘要表 + 回歸係數表 + 卡方結果表
 
-📁 **成果檔案**：[原始問卷資料（CSV，202筆）](https://github.com/micker590326/QA-Internship-Portfolio/blob/main/%E5%BB%89%E5%83%B9%E8%88%AA%E7%A9%BA%E5%B8%82%E5%A0%B4%E8%AA%BF%E6%9F%A5%E5%95%8F%E5%8D%B7.csv) ｜ [樞紐分析（Excel）](https://github.com/micker590326/QA-Internship-Portfolio/blob/main/pivot_202survey.xlsx)
+📁 **成果檔案**：[研究報告（PDF）](https://github.com/micker590326/QA-Internship-Portfolio/blob/main/%E5%BB%89%E5%83%B9%E8%88%AA%E7%A9%BA%E7%A0%94%E7%A9%B6%E5%A0%B1%E5%91%8A.pdf) ｜ [原始問卷資料（CSV，202筆）](https://github.com/micker590326/QA-Internship-Portfolio/blob/main/%E5%BB%89%E5%83%B9%E8%88%AA%E7%A9%BA%E5%B8%82%E5%A0%B4%E8%AA%BF%E6%9F%A5%E5%95%8F%E5%8D%B7.csv) ｜ [樞紐分析（Excel）](https://github.com/micker590326/QA-Internship-Portfolio/blob/main/pivot_202survey.xlsx)
 
 ---
 
@@ -82,7 +82,7 @@
 **工具**：Google Colaboratory、Python、YOLOv4  
 **可交付成果**：`model_test_log.md`（測試版本、條件、結果、缺陷分類表）
 
-📁 **成果檔案**：[YOLO 測試記錄（版本/條件/TP/FP/缺陷分析）](https://github.com/micker590326/QA-Internship-Portfolio/blob/main/yolo_test_log.md) ｜ [柏拉圖缺陷分析（Excel）](https://github.com/micker590326/QA-Internship-Portfolio/blob/main/pareto_defect_chart.xlsx)
+📁 **成果檔案**：[期中報告（PDF）](https://github.com/micker590326/QA-Internship-Portfolio/blob/main/YOLO%E4%BA%BA%E8%87%89%E8%BE%A8%E8%AD%98%E6%9C%9F%E4%B8%AD%E5%A0%B1%E5%91%8A.pdf) ｜ [YOLO 測試記錄](https://github.com/micker590326/QA-Internship-Portfolio/blob/main/yolo_test_log.md) ｜ [柏拉圖缺陷分析（Excel）](https://github.com/micker590326/QA-Internship-Portfolio/blob/main/pareto_defect_chart.xlsx)
 
 ---
 
@@ -112,7 +112,7 @@
 **工具**：Python（sklearn）、Excel（Code Book 整理）  
 **可交付成果**：`codebook_v1.xlsx`（變數定義表）+ 決策樹模型評估表
 
-📁 **成果檔案**：[查驗表模板（可直接套用）](https://github.com/micker590326/QA-Internship-Portfolio/blob/main/check_sheet_template.xlsx)
+📁 **成果檔案**：[Stress Level 資料集（CSV）](https://github.com/micker590326/QA-Internship-Portfolio/blob/main/stress_level_dataset.csv) ｜ [查驗表模板（Excel）](https://github.com/micker590326/QA-Internship-Portfolio/blob/main/check_sheet_template.xlsx)
 
 ---
 
