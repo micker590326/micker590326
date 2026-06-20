@@ -1,169 +1,198 @@
+# 陳芳儀 Fang-Yi Chen｜品保實習生
 
-# 👩‍💼 陳芳儀｜Fang-Yi Chen
-
-**Management Science Student | Business & Data-Oriented Talent**
-
-📍 Taipei, Taiwan
-📧 [mickey590326@gmail.com](mailto:mickey590326@gmail.com)
-🔗 GitHub：[micker590326](https://github.com/micker590326?utm_source=chatgpt.com)
-🔗 LinkedIn：[Fang‑Yi Chen LinkedIn](https://www.linkedin.com/in/芳儀-陳-aa984935b?utm_source=chatgpt.com)
+> 淡江大學 管理科學系 應屆畢業生（預計 2026/06）  
+> 應徵職位：碩天科技 GQ00 品保中心 品保實習生  
+> 聯絡方式：mickey590326@gmail.com
 
 ---
 
-## 🎯 求職目標｜Career Objective
+## 核心能力摘要
 
-**中｜**
-我希望尋找一份結合 **商管、資料處理與人際互動** 的職位，能實際運用 Excel、Python 進行基礎分析與行政支援，並與跨部門或客戶溝通合作。
-目標職位包含：
-
-* 生管／營運助理
-* 包租代管行政／業務助理
-* 業務助理／行銷助理
-* 資料／行政整合型助理（Business / Operations Assistant）
-
-正職與實習皆可，產業不設限。
-
-**EN｜**
-I am seeking a position that combines **business operations, data handling, and interpersonal interaction**, where I can apply Excel and Python for basic analysis while supporting daily operations and communication.
-Target roles include Operations Assistant, Business Assistant, Property Management Assistant, and Marketing or Administrative roles with data exposure.
+| 能力面向 | 工具 / 方法 | 實際應用 |
+|---|---|---|
+| 資料整理與品質核查 | Excel、CSV | 清理 202 筆問卷原始資料，處理缺漏值與異常填答 |
+| 量測工具信度驗證 | SPSS（Cronbach's α） | 驗證 45 題量表各構面的量測一致性（α = 0.68–0.90） |
+| 統計分析與指標建構 | SPSS（因素分析、回歸、卡方） | 從原始資料萃取品質構面，驗證因果路徑顯著性 |
+| 測試執行與結果記錄 | Python、Google Colab | 執行 YOLO 物件偵測模型測試，記錄準確率與缺陷類型 |
+| QC 七大手法（基礎） | Excel 圖表 | 製作查驗表、柏拉圖、特性要因圖（自學練習） |
 
 ---
 
-## 🎓 學歷｜Education
-
-**淡江大學 Tamkang University**
-**管理科學系｜Management Science**
-2023 – 2026（預計 2026 年 6 月畢業）
-
-**Relevant Coursework:**
-Data Analysis, Python Programming, Excel Applications, Supply Chain Management,
-Market Research & Analysis, Financial Risk Management,
-Enterprise Carbon Strategy & Sustainability,
-Artificial Intelligence Overview, Technology Management, Marketing Management,
-Data Mining & Introduction to Information Systems
+## 專案經歷（品保視角）
 
 ---
 
-## 🧠 技能｜Skills
+### 專案一｜消費者服務品質量化指標驗證
 
-### 📊 資料與工具
+**學科**：管理科學系研究方法課程 ／ 大三  
+**時間**：2025/05  
+**角色**：問卷設計・資料收集・卡方檢定（個人負責）
 
-* Excel（樞紐分析、基礎函數、資料整理）
-* Python（基礎資料處理）
-* SPSS（SAV 檔分析）
-* Google Colaboratory
-* GitHub（版本控管、資料管理）
-* Microsoft Office
+**做了什麼**
 
-### 🌐 平台
+針對廉價航空服務品質設計結構化問卷（45 題，含 INV、SAT、MOT 三大構面），以 Google Forms 收集 202 份問卷，匯出 CSV 後進行以下資料品質作業：
 
-* GitHub
-* LinkedIn
+- **原始資料清理**：CSV 含部分未搭乘廉航的受訪者（回答「否」後跳題），識別並標記 37 筆有效缺漏值，確保後續分析使用正確子集
+- **量測工具信度驗證**（對應 MSA 概念）：SPSS Cronbach's α 分析，整體 α = 0.772，各構面 0.68–0.90，識別 INV14 為低信度題項並刪除
+- **構面有效性確認**：KMO = 0.801（涉入度構面），通過 Bartlett 球形檢定（p < 0.001），確認量測工具適合進行因素分析
+- **因果路徑驗證**：回歸分析確認「使用動機 → 滿意度」顯著正向路徑（p < 0.05）
+- **分組比較**：卡方檢定確認職業別對服務感知有顯著差異（Pearson χ² = 49.056，p = 0.002）
 
-### 🌍 語言
+**品保對應能力**
 
-* 中文：母語
-* 英文：IELTS 4.5
+| 品保概念 | 本專案對應 |
+|---|---|
+| 資料品質管理 | 識別缺漏值、異常填答、跳題邏輯錯誤 |
+| 量測系統分析（MSA） | Cronbach's α 確認量測工具重複性 |
+| 分層分析 | 以職業、年齡分組做卡方比較 |
+| 品質指標建構 | 因素分析萃取「方便性、安全性、滿意度」三大品質構面 |
 
----
-
-## 📂 專案經驗｜Projects
-
-### ✈️ 廉價航空市場分析
-
-**Tools:** SPSS
-**Role:**
-
-* 資料分析與處理
-* 問卷數據整理與統計分析
-
-**Outcome:**
-
-* 完成顧客滿意度調查與分析報告（Docs）
+**工具**：SPSS、Excel（樞紐分析整理 202 筆）、Google Forms  
+**可交付成果**：原始問卷 CSV 資料 + 信度摘要表 + 回歸係數表 + 卡方結果表
 
 ---
 
-### 📘 Codebook 資料整理專案
+### 專案二｜物件偵測模型測試與缺陷分析
 
-**Tools:** Google Colab
-**Role:**
+**學科**：人工智慧概論 ／ 大二  
+**時間**：2024/04  
+**角色**：個人獨立完成
 
-* 整理與結構化資料
-* 建立完整資料說明文件
+**做了什麼**
 
-**Outcome:**
+使用 YOLOv4 預訓練模型，在 Google Colab 環境建立完整測試流程，模擬 DQA 產品測試情境：
 
-* 產出可供後續分析使用的完整資料集
+- **測試環境建置**：載入 `yolov4.weights`，確認 GPU 環境（類比生產線測試設備確認）
+- **測試案例執行**：對靜態測試圖片（人、狗、摩托車）執行偵測，記錄各物件的偵測框位置與置信度分數
+- **結果驗證**：確認偵測框的 True Positive / False Positive / False Negative 分佈
+- **缺陷分類記錄**：整理模型在「小目標物件」、「多物件重疊」場景的誤判行為，分析根本原因
+- **改善建議報告**：提出 3 項具體改善方向（資料增強、多尺度特徵融合、損失函數改善）
 
----
+**品保對應能力**
 
-### 🔐 人臉辨識對門禁管理之影響
+| 品保概念 | 本專案對應 |
+|---|---|
+| 產品測試（DQA） | 建立測試條件 → 執行 → 記錄結果 → 分析缺陷的完整流程 |
+| 缺陷分類 | 依場景類型分類誤判（小目標 / 重疊 / 低解析度） |
+| 根本原因分析 | 從網格劃分限制解釋定位失準的成因 |
+| 測試報告撰寫 | 整理測試條件、準確率、缺陷清單、改善建議 |
 
-**Tools:** Google Colaboratory
-**Role:**
-
-* 分析人臉辨識技術於門禁管理的應用與影響
-
-**Outcome:**
-
-* 完成專題研究報告
-
----
-
-### 🗂 GitHub 版本控管與資料管理
-
-**Tools:** Python, GitHub
-**Role:**
-
-* 使用 Python 整理資料
-* 進行 GitHub commit 與版本管理
-
-**Outcome:**
-
-* 可於 GitHub 清楚追蹤資料異動紀錄
+**工具**：Google Colaboratory、Python、YOLOv4  
+**可交付成果**：`model_test_log.md`（測試版本、條件、結果、缺陷分類表）
 
 ---
 
-### 🌱 家用碳盤查專案
+### 專案三｜分類模型建立、Code Book 設計與準確率驗證
 
-**Tools:** 碳盤查相關知識
-**Role:**
+**學科**：資料探勘 ／ 大三  
+**時間**：2025 上學期  
+**角色**：團隊分工（Code Book 設計與決策樹驗證）
 
-* 調查家庭日常活動之碳足跡
+**做了什麼**
 
-**Outcome:**
+建立決策樹分類模型，並設計完整 Code Book 作為資料字典（對應品保「規格書」概念）：
 
-* 完成溫室氣體碳盤查報告
+- **Code Book 建立**：定義每個變數的名稱、型別、值域、編碼規則，確保資料輸入一致性
+- **資料驗證**：確認各欄位值是否符合 Code Book 規範（範圍檢查、型別檢查）
+- **模型測試**：以訓練集 / 測試集分割驗證分類準確率，記錄各分支的錯誤率
+- **誤差紀錄**：彙整誤分類案例，分析哪類樣本最容易判斷錯誤
 
----
+**品保對應能力**
 
-## 💼 工作經驗｜Work Experience
+| 品保概念 | 本專案對應 |
+|---|---|
+| 規格書制定 | Code Book = 資料品質規格，定義合格 / 不合格條件 |
+| 進料檢驗 | 輸入資料的型別、值域驗證 |
+| 測試紀錄 | 分類準確率、誤差率按分支記錄 |
 
-### **New Balance｜兼職人員（Part-time Staff）**
-
-2024/05 – 2026/06
-
-* 店務營運與櫃檯收銀
-* 客戶服務與產品介紹
-* 退換貨處理、點貨與庫存調轉
-* 包貨與寄貨作業
-* 提升溝通能力與現場應變能力
-
----
-
-## 📜 證照與培訓｜Certifications
-
-* Microsoft Office Specialist (MOS)
-* NVIDIA 深度學習機構 AI 基礎認證
-* 企業碳策略與永續轉型課程結業證書
+**工具**：Python（sklearn）、Excel（Code Book 整理）  
+**可交付成果**：`codebook_v1.xlsx`（變數定義表）+ 決策樹模型評估表
 
 ---
 
-## 💡 個人特色｜Strengths
+### 專案四｜家用能源碳排放數據蒐集與品質核查
 
-* 商管背景，能理解營運與流程
-* 具備基礎資料分析與數位工具能力
-* 細心、負責，能處理行政與數據並行的工作
-* 有服務業經驗，擅長人際互動與溝通
+**學科**：環境管理專題 ／ 大四  
+**時間**：2025 上學期
+
+**做了什麼**
+
+針對家庭能源使用建立碳排放盤查系統，設計資料蒐集表並執行數據品質驗證：
+
+- **結構化表單設計**：建立電力、天然氣、交通三類別的標準化記錄欄位
+- **數值品質核查**：比對官方排放係數（經濟部能源局），驗證各項計算值的合理性
+- **異常值偵測**：標記與歷史均值差異超過 2σ 的月份，回溯確認原始記錄
+- **資料彙整報告**：製作各類別碳排量加總表，以樞紐分析呈現月別趨勢
+
+**品保對應能力**
+
+| 品保概念 | 本專案對應 |
+|---|---|
+| 資料品質管理（DQA） | 核查輸入數據是否符合規範係數 |
+| 異常值偵測 | 2σ 偏差標記，觸發回溯確認流程 |
+| 品質紀錄 | 按月別、類別建立可追溯的蒐集記錄 |
+| 報告整合 | 樞紐分析彙整成主管可讀的摘要格式 |
+
+**工具**：Excel（SUMIF、樞紐分析、條件格式）  
+**可交付成果**：`carbon_record_template.xlsx`（含數據驗證規則）+ `carbon_summary.xlsx`（月別彙整）
 
 ---
+
+## GitHub 品保作品集結構
+
+```
+QA-Internship-Portfolio/
+│
+├── Excel_QC_Tools/
+│   ├── pivot_202survey.xlsx
+│   ├── data_validation_template.xlsx
+│   └── README.md
+│
+├── Test_Data_Record/
+│   ├── yolo_test_log.md
+│   ├── defect_classification.xlsx
+│   └── README.md
+│
+├── Pivot_Table_Practice/
+│   ├── survey_crosstab_age.xlsx
+│   ├── survey_crosstab_job.xlsx
+│   └── README.md
+│
+├── QC_Seven_Tools/
+│   ├── check_sheet_template.xlsx
+│   ├── pareto_defect_chart.xlsx
+│   └── README.md
+│
+└── README.md
+```
+
+### 各資料夾讓主管看到什麼
+
+| 資料夾 | 主管點進去看到 |
+|---|---|
+| `Excel_QC_Tools` | 我能建樞紐、設資料驗證規則，可以直接上手整理測試紀錄或 SPC 資料 |
+| `Test_Data_Record` | 我習慣把測試過程完整記錄（版本、條件、結果、缺陷分類），不只是截圖了事 |
+| `Pivot_Table_Practice` | 有用 200+ 筆真實資料做交叉分析的經驗，不是只看過教學影片 |
+| `QC_Seven_Tools` | 知道 QC 七大手法是什麼，並嘗試套用在自己的學術資料上 |
+
+---
+
+## 關於我
+
+**學歷**：淡江大學 管理科學系（2022–2026）
+
+**具備的品保基礎認知**
+- 了解 PDCA 循環與品質改善流程
+- 了解 QC 七大手法（查驗表、柏拉圖、特性要因圖、散佈圖、管制圖、直方圖、層別法）
+- 了解量測系統分析（MSA）基本概念：重複性與再現性
+- 熟悉資料一致性驗證：值域檢查、型別檢查、缺漏值處理
+- 了解統計製程管制（SPC）基本概念
+
+**個人特質**
+- 做事有系統規劃能力（目前執行 50 天雅思備考計畫）
+- 習慣把每一步驟記錄下來，確保可追溯
+- 學習新工具速度快，能獨立查文件解決問題
+
+---
+
+*最後更新：2026-06*
