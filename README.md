@@ -22,8 +22,8 @@
 
 | 證書 | 連結 |
 |---|---|
-| Excel 技能認證 | [📄 查看證書](https://github.com/micker590326/QA-Internship-Portfolio/blob/main/Excel%E8%AD%89%E6%9B%B8.pdf) |
-| 統計分析能力證書 | [📄 查看證書](https://github.com/micker590326/QA-Internship-Portfolio/blob/main/%E7%B5%B1%E8%A8%88%E5%88%86%E6%9E%90%E8%AD%89%E6%9B%B8.pdf) |
+| Microsoft Office Specialist（MOS）Excel | [📄 查看證書](https://github.com/micker590326/QA-Internship-Portfolio/blob/main/Excel%E8%AD%89%E6%9B%B8.pdf) |
+| 企業碳策略與永續轉型 結業證明（Corporate Carbon Strategy and Sustainable Transformation） | [📄 查看證書](https://github.com/micker590326/QA-Internship-Portfolio/blob/main/%E7%B5%B1%E8%A8%88%E5%88%86%E6%9E%90%E8%AD%89%E6%9B%B8.pdf) |
 
 ---
 
