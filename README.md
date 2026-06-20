@@ -18,6 +18,15 @@
 
 ---
 
+## 證書 / 技能認證
+
+| 證書 | 連結 |
+|---|---|
+| Excel 技能認證 | [📄 查看證書](https://github.com/micker590326/QA-Internship-Portfolio/blob/main/Excel%E8%AD%89%E6%9B%B8.pdf) |
+| 統計分析能力證書 | [📄 查看證書](https://github.com/micker590326/QA-Internship-Portfolio/blob/main/%E7%B5%B1%E8%A8%88%E5%88%86%E6%9E%90%E8%AD%89%E6%9B%B8.pdf) |
+
+---
+
 ## 專案經歷（品保視角）
 
 ---
@@ -110,9 +119,9 @@
 | 測試紀錄 | 分類準確率、誤差率按分支記錄 |
 
 **工具**：Python（sklearn）、Excel（Code Book 整理）  
-**可交付成果**：`codebook_v1.xlsx`（變數定義表）+ 決策樹模型評估表
+**可交付成果**：Code Book 變數定義表 + 決策樹模型評估表
 
-📁 **成果檔案**：[Stress Level 資料集（CSV）](https://github.com/micker590326/QA-Internship-Portfolio/blob/main/stress_level_dataset.csv) ｜ [查驗表模板（Excel）](https://github.com/micker590326/QA-Internship-Portfolio/blob/main/check_sheet_template.xlsx)
+📁 **成果檔案**：[期末報告（PDF）](https://github.com/micker590326/QA-Internship-Portfolio/blob/main/CodeBook%E6%B1%BA%E7%AD%96%E6%A8%B9%E6%9C%9F%E6%9C%AB%E5%A0%B1%E5%91%8A.pdf) ｜ [Stress Level 資料集（CSV）](https://github.com/micker590326/QA-Internship-Portfolio/blob/main/stress_level_dataset.csv)
 
 ---
 
@@ -140,9 +149,9 @@
 | 報告整合 | 樞紐分析彙整成主管可讀的摘要格式 |
 
 **工具**：Excel（SUMIF、樞紐分析、條件格式）  
-**可交付成果**：`carbon_record_template.xlsx`（含數據驗證規則）+ `carbon_summary.xlsx`（月別彙整）
+**可交付成果**：碳排放月別記錄表（含異常值標記）+ 月別趨勢樞紐
 
-📁 **成果檔案**：[碳排放記錄表（含異常值標記、月別樞紐）](https://github.com/micker590326/QA-Internship-Portfolio/blob/main/carbon_record_template.xlsx)
+📁 **成果檔案**：[期末報告（PDF）](https://github.com/micker590326/QA-Internship-Portfolio/blob/main/%E7%A2%B3%E7%9B%A4%E6%9F%A5%E6%9C%9F%E6%9C%AB%E5%A0%B1%E5%91%8A.pdf) ｜ [碳排放記錄表（Excel）](https://github.com/micker590326/QA-Internship-Portfolio/blob/main/carbon_record_template.xlsx)
 
 ---
 
