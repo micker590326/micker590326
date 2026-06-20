@@ -18,7 +18,7 @@
 
 ---
 
-## 專案經歷
+## 專案經歷（品保視角）
 
 ---
 
@@ -50,6 +50,8 @@
 **工具**：SPSS、Excel（樞紐分析整理 202 筆）、Google Forms  
 **可交付成果**：原始問卷 CSV 資料 + 信度摘要表 + 回歸係數表 + 卡方結果表
 
+📁 **成果檔案**：[原始問卷資料（CSV，202筆）](https://github.com/micker590326/QA-Internship-Portfolio/blob/main/%E5%BB%89%E5%83%B9%E8%88%AA%E7%A9%BA%E5%B8%82%E5%A0%B4%E8%AA%BF%E6%9F%A5%E5%95%8F%E5%8D%B7.csv) ｜ [樞紐分析（Excel）](https://github.com/micker590326/QA-Internship-Portfolio/blob/main/pivot_202survey.xlsx)
+
 ---
 
 ### 專案二｜物件偵測模型測試與缺陷分析
@@ -80,6 +82,8 @@
 **工具**：Google Colaboratory、Python、YOLOv4  
 **可交付成果**：`model_test_log.md`（測試版本、條件、結果、缺陷分類表）
 
+📁 **成果檔案**：[YOLO 測試記錄（版本/條件/TP/FP/缺陷分析）](https://github.com/micker590326/QA-Internship-Portfolio/blob/main/yolo_test_log.md) ｜ [柏拉圖缺陷分析（Excel）](https://github.com/micker590326/QA-Internship-Portfolio/blob/main/pareto_defect_chart.xlsx)
+
 ---
 
 ### 專案三｜分類模型建立、Code Book 設計與準確率驗證
@@ -108,6 +112,8 @@
 **工具**：Python（sklearn）、Excel（Code Book 整理）  
 **可交付成果**：`codebook_v1.xlsx`（變數定義表）+ 決策樹模型評估表
 
+📁 **成果檔案**：[查驗表模板（可直接套用）](https://github.com/micker590326/QA-Internship-Portfolio/blob/main/check_sheet_template.xlsx)
+
 ---
 
 ### 專案四｜家用能源碳排放數據蒐集與品質核查
@@ -135,45 +141,6 @@
 
 **工具**：Excel（SUMIF、樞紐分析、條件格式）  
 **可交付成果**：`carbon_record_template.xlsx`（含數據驗證規則）+ `carbon_summary.xlsx`（月別彙整）
-
----
-
-## GitHub 品保作品集結構
-
-```
-QA-Internship-Portfolio/
-│
-├── Excel_QC_Tools/
-│   ├── pivot_202survey.xlsx
-│   ├── data_validation_template.xlsx
-│   └── README.md
-│
-├── Test_Data_Record/
-│   ├── yolo_test_log.md
-│   ├── defect_classification.xlsx
-│   └── README.md
-│
-├── Pivot_Table_Practice/
-│   ├── survey_crosstab_age.xlsx
-│   ├── survey_crosstab_job.xlsx
-│   └── README.md
-│
-├── QC_Seven_Tools/
-│   ├── check_sheet_template.xlsx
-│   ├── pareto_defect_chart.xlsx
-│   └── README.md
-│
-└── README.md
-```
-
-### 各資料夾
-
-| 資料夾 | 
-|---|---|
-| `Excel_QC_Tools` | 我能建樞紐、設資料驗證規則，可以直接上手整理測試紀錄或 SPC 資料 |
-| `Test_Data_Record` | 我習慣把測試過程完整記錄（版本、條件、結果、缺陷分類），不只是截圖了事 |
-| `Pivot_Table_Practice` | 有用 200+ 筆真實資料做交叉分析的經驗，不是只看過教學影片 |
-| `QC_Seven_Tools` | 知道 QC 七大手法是什麼，並嘗試套用在自己的學術資料上 |
 
 ---
 
