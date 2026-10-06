@@ -1,176 +1,178 @@
-# 陳芳儀 Fang-Yi Chen｜
+# Hi, I'm Fang-Yi Chen (Miki) 👋
 
-> 淡江大學 管理科學系 應屆畢業生（預計 2026/06）  
-> 應徵職位：產品企劃 
-> 聯絡方式：mickey590326@gmail.com
+I'm a recent graduate from Tamkang University (Management Sciences, 2022–2026), based in Taiwan. I like turning messy raw data into something that actually tells a story — cleaning it up, running the numbers, and figuring out what it means.
+
+This page collects a few school projects where I did exactly that: survey data, a computer-vision experiment, a classification model, and a household carbon-tracking log. None of them were "real" industry work, but each one taught me something about data quality, statistics, or testing that I keep using.
+
+📫 Reach me at mickey590326@gmail.com
 
 ---
 
-## 核心能力摘要
+## What I Work With
 
-| 能力面向 | 工具 / 方法 | 實際應用 |
+| Area | Tools / Methods | Application |
 |---|---|---|
-| 資料整理與品質核查 | Excel、CSV | 清理 202 筆問卷原始資料，處理缺漏值與異常填答 |
-| 量測工具信度驗證 | SPSS（Cronbach's α） | 驗證 45 題量表各構面的量測一致性（α = 0.68–0.90） |
-| 統計分析與指標建構 | SPSS（因素分析、回歸、卡方） | 從原始資料萃取品質構面，驗證因果路徑顯著性 |
-| 測試執行與結果記錄 | Python、Google Colab | 執行 YOLO 物件偵測模型測試，記錄準確率與缺陷類型 |
-| QC 七大手法（基礎） | Excel 圖表 | 製作查驗表、柏拉圖、特性要因圖（自學練習） |
+| Data Cleaning & Quality Checking | Excel, CSV | Cleaned 202 raw survey responses, handling missing values and invalid entries |
+| Measurement Reliability Validation | SPSS (Cronbach's α) | Validated internal consistency across a 45-item scale (α = 0.68–0.90) |
+| Statistical Analysis & Indicator Construction | SPSS (Factor Analysis, Regression, Chi-square) | Extracted quality dimensions from raw data and tested the significance of causal paths |
+| Model Testing & Results Logging | Python, Google Colab | Executed YOLO object-detection model tests, logging accuracy and defect types |
+| Basic Quality Control Tools | Excel Charts | Built check sheets, Pareto charts, and cause-and-effect diagrams (self-study) |
 
 ---
 
-## 證書 / 技能認證
+## Certificates
 
-| 證書 | 連結 |
+| Certificate | Link |
 |---|---|
-| Microsoft Office Specialist（MOS）Excel | [📄 查看證書](https://github.com/micker590326/QA-Internship-Portfolio/blob/main/Excel%E8%AD%89%E6%9B%B8.pdf) |
-| 企業碳策略與永續轉型 結業證明（Corporate Carbon Strategy and Sustainable Transformation） | [📄 查看證書](https://github.com/micker590326/QA-Internship-Portfolio/blob/main/%E4%BC%81%E6%A5%AD%E7%A2%B3%E7%AD%96%E7%95%A5%E8%88%87%E6%B0%B8%E7%BA%8C%E8%BD%89%E5%9E%8B%20%E7%B5%90%E6%A5%AD%E8%AD%89%E6%98%8E.pdf) |
+| Microsoft Office Specialist (MOS) Excel | [📄 View Certificate](https://github.com/micker590326/QA-Internship-Portfolio/blob/main/Excel%E8%AD%89%E6%9B%B8.pdf) |
+| Corporate Carbon Strategy and Sustainable Transformation — Completion Certificate | [📄 View Certificate](https://github.com/micker590326/QA-Internship-Portfolio/blob/main/%E4%BC%81%E6%A5%AD%E7%A2%B3%E7%AD%96%E7%95%A5%E8%88%87%E6%B0%B8%E7%BA%8C%E8%BD%89%E5%9E%8B%20%E7%B5%90%E6%A5%AD%E8%AD%89%E6%98%8E.pdf) |
 
 ---
 
-## 專案經歷
+## Projects
 
 ---
 
-### 專案一｜消費者服務品質量化指標驗證
+### Project 1 | Quantitative Validation of Consumer Service Quality Indicators
 
-**學科**：管理科學系研究方法課程 ／ 大三  
-**時間**：2025/05  
-**角色**：問卷設計・資料收集・卡方檢定（個人負責）
+**Course**: Research Methods, Dept. of Management Sciences (Junior Year)
+**Date**: May 2025
+**Role**: Questionnaire design, data collection, chi-square testing (individual contribution)
 
-**做了什麼**
+**What I did**
 
-針對廉價航空服務品質設計結構化問卷（45 題，含 INV、SAT、MOT 三大構面），以 Google Forms 收集 202 份問卷，匯出 CSV 後進行以下資料品質作業：
+Designed a structured questionnaire (45 items across three constructs: Involvement, Satisfaction, Motivation) to study budget-airline service quality. Collected 202 responses via Google Forms, exported to CSV, and performed the following data-quality work:
 
-- **原始資料清理**：CSV 含部分未搭乘廉航的受訪者（回答「否」後跳題），識別並標記 37 筆有效缺漏值，確保後續分析使用正確子集
-- **量測工具信度驗證**（對應 MSA 概念）：SPSS Cronbach's α 分析，整體 α = 0.772，各構面 0.68–0.90，識別 INV14 為低信度題項並刪除
-- **構面有效性確認**：KMO = 0.801（涉入度構面），通過 Bartlett 球形檢定（p < 0.001），確認量測工具適合進行因素分析
-- **因果路徑驗證**：回歸分析確認「使用動機 → 滿意度」顯著正向路徑（p < 0.05）
-- **分組比較**：卡方檢定確認職業別對服務感知有顯著差異（Pearson χ² = 49.056，p = 0.002）
+- **Raw data cleaning**: Identified and flagged 37 valid missing-value cases among respondents who had skipped sections after indicating they had not flown with a budget airline, ensuring the correct subset was used for analysis
+- **Measurement reliability validation (MSA-equivalent)**: SPSS Cronbach's α analysis — overall α = 0.772, construct-level α ranging 0.68–0.90; identified and removed item INV14 for low reliability
+- **Construct validity confirmation**: KMO = 0.801 (Involvement construct), passed Bartlett's test of sphericity (p < 0.001), confirming suitability for factor analysis
+- **Causal path verification**: Regression analysis confirmed a significant positive path from "usage motivation" to "satisfaction" (p < 0.05)
+- **Subgroup comparison**: Chi-square test confirmed a significant difference in service perception by occupation (Pearson χ² = 49.056, p = 0.002)
 
-**品保對應能力**
+**What this shows**
 
-| 品保概念 | 本專案對應 |
+| Skill | How it shows up here |
 |---|---|
-| 資料品質管理 | 識別缺漏值、異常填答、跳題邏輯錯誤 |
-| 量測系統分析（MSA） | Cronbach's α 確認量測工具重複性 |
-| 分層分析 | 以職業、年齡分組做卡方比較 |
-| 品質指標建構 | 因素分析萃取「方便性、安全性、滿意度」三大品質構面 |
+| Data quality management | Identifying missing values, invalid responses, and skip-logic errors |
+| Measurement reliability | Cronbach's α to confirm measurement consistency |
+| Stratified analysis | Chi-square comparisons by occupation and age group |
+| Indicator construction | Factor analysis to extract convenience, safety, and satisfaction dimensions |
 
-**工具**：SPSS、Excel（樞紐分析整理 202 筆）、Google Forms  
-**可交付成果**：原始問卷 CSV 資料 + 信度摘要表 + 回歸係數表 + 卡方結果表
+**Tools**: SPSS, Excel (pivot tables on 202 records), Google Forms
+**Deliverables**: Raw survey CSV + reliability summary table + regression coefficient table + chi-square results table
 
-📁 **成果檔案**：[研究報告（PDF）](https://github.com/micker590326/QA-Internship-Portfolio/blob/main/%E5%BB%89%E5%83%B9%E8%88%AA%E7%A9%BA%E7%A0%94%E7%A9%B6%E5%A0%B1%E5%91%8A.pdf) ｜ [原始問卷資料（CSV，202筆）](https://github.com/micker590326/QA-Internship-Portfolio/blob/main/%E5%BB%89%E5%83%B9%E8%88%AA%E7%A9%BA%E5%B8%82%E5%A0%B4%E8%AA%BF%E6%9F%A5%E5%95%8F%E5%8D%B7.csv) ｜ [樞紐分析（Excel）](https://github.com/micker590326/QA-Internship-Portfolio/blob/main/pivot_202survey.xlsx)
+📁 **Files**: [Research Report (PDF)](https://github.com/micker590326/QA-Internship-Portfolio/blob/main/%E5%BB%89%E5%83%B9%E8%88%AA%E7%A9%BA%E7%A0%94%E7%A9%B6%E5%A0%B1%E5%91%8A.pdf) | [Raw Survey Data (CSV, 202 responses)](https://github.com/micker590326/QA-Internship-Portfolio/blob/main/%E5%BB%89%E5%83%B9%E8%88%AA%E7%A9%BA%E5%B8%82%E5%A0%B4%E8%AA%BF%E6%9F%A5%E5%95%8F%E5%8D%B7.csv) | [Pivot Analysis (Excel)](https://github.com/micker590326/QA-Internship-Portfolio/blob/main/pivot_202survey.xlsx)
 
 ---
 
-### 專案二｜物件偵測模型測試與缺陷分析
+### Project 2 | Object Detection Model Testing & Defect Analysis
 
-**學科**：人工智慧概論 ／ 大二  
-**時間**：2024/04  
-**角色**：個人獨立完成
+**Course**: Introduction to Artificial Intelligence (Sophomore Year)
+**Date**: April 2024
+**Role**: Completed independently
 
-**做了什麼**
+**What I did**
 
-使用 YOLOv4 預訓練模型，在 Google Colab 環境建立完整測試流程，模擬 DQA 產品測試情境：
+Built a complete model-testing pipeline on a pretrained YOLOv4 model in Google Colab, simulating a data quality assurance (DQA) product-testing workflow:
 
-- **測試環境建置**：載入 `yolov4.weights`，確認 GPU 環境（類比生產線測試設備確認）
-- **測試案例執行**：對靜態測試圖片（人、狗、摩托車）執行偵測，記錄各物件的偵測框位置與置信度分數
-- **結果驗證**：確認偵測框的 True Positive / False Positive / False Negative 分佈
-- **缺陷分類記錄**：整理模型在「小目標物件」、「多物件重疊」場景的誤判行為，分析根本原因
-- **改善建議報告**：提出 3 項具體改善方向（資料增強、多尺度特徵融合、損失函數改善）
+- **Test environment setup**: Loaded `yolov4.weights` and verified GPU environment
+- **Test case execution**: Ran detection on static test images (person, dog, motorcycle), logging bounding-box positions and confidence scores
+- **Result verification**: Confirmed the distribution of True Positives, False Positives, and False Negatives
+- **Defect classification**: Catalogued misclassification patterns in "small object," and "overlapping multi-object" scenarios, and analyzed root causes
+- **Improvement recommendations**: Proposed 3 concrete improvements (data augmentation, multi-scale feature fusion, loss function refinement)
 
-**品保對應能力**
+**What this shows**
 
-| 品保概念 | 本專案對應 |
+| Skill | How it shows up here |
 |---|---|
-| 產品測試（DQA） | 建立測試條件 → 執行 → 記錄結果 → 分析缺陷的完整流程 |
-| 缺陷分類 | 依場景類型分類誤判（小目標 / 重疊 / 低解析度） |
-| 根本原因分析 | 從網格劃分限制解釋定位失準的成因 |
-| 測試報告撰寫 | 整理測試條件、準確率、缺陷清單、改善建議 |
+| Structured testing | Full cycle of defining test conditions → execution → logging results → defect analysis |
+| Error classification | Categorizing misclassifications by scenario (small object / overlap / low resolution) |
+| Root cause analysis | Explaining localization errors via grid-partitioning limitations |
+| Technical reporting | Compiling test conditions, accuracy, defect list, and improvement recommendations |
 
-**工具**：Google Colaboratory、Python、YOLOv4  
-**可交付成果**：`model_test_log.md`（測試版本、條件、結果、缺陷分類表）
+**Tools**: Google Colaboratory, Python, YOLOv4
+**Deliverables**: `model_test_log.md` (test versions, conditions, results, defect classification table)
 
-📁 **成果檔案**：[期中報告（PDF）](https://github.com/micker590326/QA-Internship-Portfolio/blob/main/YOLO%E4%BA%BA%E8%87%89%E8%BE%A8%E8%AD%98%E6%9C%9F%E4%B8%AD%E5%A0%B1%E5%91%8A.pdf) ｜ [YOLO 測試記錄](https://github.com/micker590326/QA-Internship-Portfolio/blob/main/yolo_test_log.md) ｜ [柏拉圖缺陷分析（Excel）](https://github.com/micker590326/QA-Internship-Portfolio/blob/main/pareto_defect_chart.xlsx)
+📁 **Files**: [Midterm Report (PDF)](https://github.com/micker590326/QA-Internship-Portfolio/blob/main/YOLO%E4%BA%BA%E8%87%89%E8%BE%A8%E8%AD%98%E6%9C%9F%E4%B8%AD%E5%A0%B1%E5%91%8A.pdf) | [YOLO Test Log](https://github.com/micker590326/QA-Internship-Portfolio/blob/main/yolo_test_log.md) | [Pareto Defect Analysis (Excel)](https://github.com/micker590326/QA-Internship-Portfolio/blob/main/pareto_defect_chart.xlsx)
 
 ---
 
-### 專案三｜分類模型建立、Code Book 設計與準確率驗證
+### Project 3 | Classification Model Building, Code Book Design & Accuracy Validation
 
-**學科**：資料探勘 ／ 大三  
-**時間**：2025 上學期  
-**角色**：團隊分工（Code Book 設計與決策樹驗證）
+**Course**: Data Mining (Junior Year)
+**Date**: Fall 2025
+**Role**: Team project (responsible for Code Book design and decision-tree validation)
 
-**做了什麼**
+**What I did**
 
-建立決策樹分類模型，並設計完整 Code Book 作為資料字典（對應品保「規格書」概念）：
+Built a decision-tree classification model and designed a complete Code Book as a data dictionary (equivalent to a QA specification document):
 
-- **Code Book 建立**：定義每個變數的名稱、型別、值域、編碼規則，確保資料輸入一致性
-- **資料驗證**：確認各欄位值是否符合 Code Book 規範（範圍檢查、型別檢查）
-- **模型測試**：以訓練集 / 測試集分割驗證分類準確率，記錄各分支的錯誤率
-- **誤差紀錄**：彙整誤分類案例，分析哪類樣本最容易判斷錯誤
+- **Code Book creation**: Defined the name, data type, value range, and encoding rules for each variable to ensure consistent data entry
+- **Data validation**: Verified that each field complied with the Code Book specification (range checks, type checks)
+- **Model testing**: Validated classification accuracy using a train/test split, logging error rates for each branch
+- **Error logging**: Compiled misclassified cases and analyzed which sample types were most error-prone
 
-**品保對應能力**
+**What this shows**
 
-| 品保概念 | 本專案對應 |
+| Skill | How it shows up here |
 |---|---|
-| 規格書制定 | Code Book = 資料品質規格，定義合格 / 不合格條件 |
-| 進料檢驗 | 輸入資料的型別、值域驗證 |
-| 測試紀錄 | 分類準確率、誤差率按分支記錄 |
+| Specification design | Code Book as a data dictionary defining valid/invalid conditions |
+| Input validation | Type and range checks on input data |
+| Model evaluation | Recording classification accuracy and error rates by branch |
 
-**工具**：Python（sklearn）、Excel（Code Book 整理）  
-**可交付成果**：Code Book 變數定義表 + 決策樹模型評估表
+**Tools**: Python (sklearn), Excel (Code Book management)
+**Deliverables**: Code Book variable definition table + decision-tree model evaluation table
 
-📁 **成果檔案**：[期末報告（PDF）](https://github.com/micker590326/QA-Internship-Portfolio/blob/main/CodeBook%E6%B1%BA%E7%AD%96%E6%A8%B9%E6%9C%9F%E6%9C%AB%E5%A0%B1%E5%91%8A.pdf) ｜ [Stress Level 資料集（CSV）](https://github.com/micker590326/QA-Internship-Portfolio/blob/main/stress_level_dataset.csv)
+📁 **Files**: [Final Report (PDF)](https://github.com/micker590326/QA-Internship-Portfolio/blob/main/CodeBook%E6%B1%BA%E7%AD%96%E6%A8%B9%E6%9C%9F%E6%9C%AB%E5%A0%B1%E5%91%8A.pdf) | [Stress Level Dataset (CSV)](https://github.com/micker590326/QA-Internship-Portfolio/blob/main/stress_level_dataset.csv)
 
 ---
 
-### 專案四｜家用能源碳排放數據蒐集與品質核查
+### Project 4 | Household Energy Carbon Emissions Data Collection & Quality Review
 
-**學科**：環境管理專題 ／ 大四  
-**時間**：2025 上學期
+**Course**: Environmental Management Seminar (Senior Year)
+**Date**: Fall 2025
 
-**做了什麼**
+**What I did**
 
-針對家庭能源使用建立碳排放盤查系統，設計資料蒐集表並執行數據品質驗證：
+Built a household carbon-emissions inventory system, designing a data-collection form and performing data-quality validation:
 
-- **結構化表單設計**：建立電力、天然氣、交通三類別的標準化記錄欄位
-- **數值品質核查**：比對官方排放係數（經濟部能源局），驗證各項計算值的合理性
-- **異常值偵測**：標記與歷史均值差異超過 2σ 的月份，回溯確認原始記錄
-- **資料彙整報告**：製作各類別碳排量加總表，以樞紐分析呈現月別趨勢
+- **Structured form design**: Created standardized recording fields for electricity, natural gas, and transportation categories
+- **Value quality review**: Cross-checked calculated values against official emission factors (Taiwan Bureau of Energy) to verify reasonableness
+- **Outlier detection**: Flagged months with values deviating more than 2σ from the historical mean and traced back to the original records
+- **Report compilation**: Produced category-level emission totals and monthly trends via pivot tables
 
-**品保對應能力**
+**What this shows**
 
-| 品保概念 | 本專案對應 |
+| Skill | How it shows up here |
 |---|---|
-| 資料品質管理（DQA） | 核查輸入數據是否符合規範係數 |
-| 異常值偵測 | 2σ 偏差標記，觸發回溯確認流程 |
-| 品質紀錄 | 按月別、類別建立可追溯的蒐集記錄 |
-| 報告整合 | 樞紐分析彙整成主管可讀的摘要格式 |
+| Data validation | Reviewing input data against reference coefficients |
+| Outlier detection | 2σ deviation flagging triggering a data-trace workflow |
+| Record keeping | Traceable monthly, categorized collection records |
+| Reporting | Pivot-table summaries formatted for easy review |
 
-**工具**：Excel（SUMIF、樞紐分析、條件格式）  
-**可交付成果**：碳排放月別記錄表（含異常值標記）+ 月別趨勢樞紐
+**Tools**: Excel (SUMIF, pivot tables, conditional formatting)
+**Deliverables**: Monthly carbon emissions record (with outlier flags) + monthly trend pivot table
 
-📁 **成果檔案**：[期末報告（PDF）](https://github.com/micker590326/QA-Internship-Portfolio/blob/main/%E7%A2%B3%E7%9B%A4%E6%9F%A5%E6%9C%9F%E6%9C%AB%E5%A0%B1%E5%91%8A.pdf) ｜ [碳排放記錄表（Excel）](https://github.com/micker590326/QA-Internship-Portfolio/blob/main/carbon_record_template.xlsx)
-
----
-
-## 關於我
-
-**學歷**：淡江大學 管理科學系（2022–2026）
-
-**具備的基礎認知**
-- 了解 PDCA 循環與品質改善流程
-- 了解 QC 七大手法（查驗表、柏拉圖、特性要因圖、散佈圖、管制圖、直方圖、層別法）
-- 了解量測系統分析（MSA）基本概念：重複性與再現性
-- 熟悉資料一致性驗證：值域檢查、型別檢查、缺漏值處理
-- 了解統計製程管制（SPC）基本概念
-
-**個人特質**
-- 做事有系統規劃能力
-- 習慣把每一步驟記錄下來，確保可追溯
-- 學習新工具速度快，能獨立查文件解決問題
+📁 **Files**: [Final Report (PDF)](https://github.com/micker590326/QA-Internship-Portfolio/blob/main/%E7%A2%B3%E7%9B%A4%E6%9F%A5%E6%9C%9F%E6%9C%AB%E5%A0%B1%E5%91%8A.pdf) | [Carbon Emissions Record (Excel)](https://github.com/micker590326/QA-Internship-Portfolio/blob/main/carbon_record_template.xlsx)
 
 ---
 
+## About Me
 
+**Education**: B.A. in Management Sciences, Tamkang University (2022–2026)
+
+**Analytical & Data Quality Foundations**
+- Familiar with the PDCA cycle and quality-improvement processes
+- Familiar with the seven basic QC tools (check sheets, Pareto charts, cause-and-effect diagrams, scatter diagrams, control charts, histograms, stratification)
+- Understand the basics of Measurement System Analysis (MSA): repeatability and reproducibility
+- Experienced in data consistency validation: range checks, type checks, missing-value handling
+- Familiar with the basics of Statistical Process Control (SPC)
+
+**Personal Traits**
+- Systematic planner (currently executing a structured IELTS preparation plan)
+- Habit of documenting every step for traceability
+- Fast learner of new tools; comfortable solving problems independently from documentation
+
+---
+
+*Last updated: October 2026*
